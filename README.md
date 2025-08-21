@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React Todo App with Vite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 Vite를 사용하여 빠른 개발 환경을 제공하는 React Todo 앱입니다.
 
-## Available Scripts
+## 기술 스택
 
-In the project directory, you can run:
+- **React 19** - 최신 버전의 React
+- **Vite** - 빠른 빌드 도구 및 개발 서버
+- **JavaScript** - 주요 프로그래밍 언어
 
-### `npm start`
+## 사용 가능한 스크립트
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+프로젝트 디렉토리에서 다음 명령어들을 실행할 수 있습니다:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm run dev`
 
-### `npm test`
+개발 모드로 앱을 실행합니다.\
+[http://localhost:3000](http://localhost:3000)에서 브라우저로 확인할 수 있습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+변경사항이 있을 때마다 페이지가 자동으로 새로고침됩니다.\
+개발자 도구에서 lint 에러도 확인할 수 있습니다.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+프로덕션용으로 앱을 빌드합니다.\
+`build` 폴더에 최적화된 파일들이 생성됩니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+빌드는 최적화되고 파일명에 해시가 포함되어 배포에 적합합니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run preview`
 
-### `npm run eject`
+빌드된 앱을 로컬에서 미리 볼 수 있습니다.\
+프로덕션 빌드를 실제로 테스트해볼 때 유용합니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `npm test`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+테스트 러너를 실행합니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 기능
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ✅ Todo 아이템 추가
+- ✅ Todo 목록 표시
+- 🚧 Todo 아이템 삭제 (개발 중)
+- 🚧 Todo 아이템 완료 표시 (개발 중)
+
+## 개발 환경 설정
+
+1. 의존성 설치:
+```bash
+npm install
+```
+
+2. 개발 서버 실행:
+```bash
+npm run dev
+```
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Vite 공식 문서](https://vitejs.dev/)
+- [React 공식 문서](https://reactjs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 성능 개선
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vite를 사용하여 다음과 같은 성능 개선을 얻었습니다:
+- ⚡ 빠른 개발 서버 시작
+- 🔥 HMR (Hot Module Replacement)
+- 📦 최적화된 빌드
+- 🎯 ES 모듈 기반 번들링
